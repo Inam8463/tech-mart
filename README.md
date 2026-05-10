@@ -9,11 +9,19 @@ A responsive e-commerce web app for electronics and gadgets, built with React an
 
 ---
 
+## 📸 Screenshots
+
+| Home / Browse | Product Detail | Cart & Checkout |
+|---|---|---|
+| ![Home](images/Screenshot%202026-05-10%20145639.png) | ![Product](images/Screenshot%202026-05-10%20145704.png) | ![Cart](images/Screenshot%202026-05-10%20145737.png) |
+
+---
+
 ## About
 
-TechMart is a frontend e-commerce project I built to practice React fundamentals — routing, state management with Context API, component design, and responsive layouts with Tailwind CSS.
+TechMart is a fully frontend e-commerce experience for electronics and gadgets. I built it to go deep on React fundamentals, component architecture, client-side routing, and global state without reaching for heavier tools like Redux.
 
-It has no backend. Auth and cart data are handled entirely in the browser using localStorage.
+Authentication and cart persistence are handled entirely in the browser via `localStorage`, keeping the project self-contained and easy to run locally with zero backend setup.
 
 Live Demo: (https://electronics-tech-mart.netlify.app/)
 
